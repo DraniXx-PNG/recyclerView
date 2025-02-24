@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#213F5C"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_detail"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailJudul"
+        android:textColor="#FEFEFE"
+        android:text="Title"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="14dp" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/detailGambar"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/orangs"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FEFEFE"
+        android:text="Description"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:id="@+id/detailAddress"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FEFEFE"
+        android:layout_marginTop="5dp"
+        android:text="Description"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:id="@+id/detailkElas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FEFEFE"
+        android:layout_marginTop="5dp"
+        android:text="Description"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:id="@+id/detailaBsen"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FEFEFE"
+        android:layout_marginTop="5dp"
+        android:text="Description"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:id="@+id/detailGender"/>
+
+</LinearLayout>
